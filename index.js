@@ -27,6 +27,7 @@ const client =new Twilio(accountSid, authToken);
 //   createMessage();
 
 app.get("/",(req,res)=>{
+    createCall();
 res.send("Working fine")
 
 
